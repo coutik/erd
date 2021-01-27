@@ -47,8 +47,6 @@ public:
 
 
 	char& GetPos(int x, int y, int z) {
-		char* point = new char;
-		point = &a[x][y][z];
 		return a[x][y][z];
 	}
 
